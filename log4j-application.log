@@ -78,4 +78,29 @@
  2022-11-30 22:07:37,643  INFO [main] BaseClass:68 - Completed Test Sucessfully
  2022-11-30 22:07:37,652  INFO [main] BaseClass:62 - overseasplayerValidationTest has been started
  2022-11-30 22:07:37,856  INFO [main] BaseClass:68 - Completed Test Sucessfully
+ 2022-12-01 20:46:58,074  INFO [main] BaseClass:35 - Logger has been Initialized
+ 2022-12-01 20:46:58,096  INFO [main] BaseClass:62 - keeperValidationTest has been started
+ 2022-12-01 20:47:00,061  INFO [main] BaseClass:68 - Completed Test Sucessfully
+ 2022-12-01 20:47:00,066  INFO [main] BaseClass:62 - overseasplayerValidationTest has been started
+ 2022-12-01 20:47:00,319  INFO [main] BaseClass:68 - Completed Test Sucessfully
+ 2022-12-01 21:03:09,506  INFO [main] BaseClass:35 - Logger has been Initialized
+ 2022-12-01 21:03:09,526  INFO [main] BaseClass:62 - keeperValidationTest has been started
+ 2022-12-01 21:03:11,190  INFO [main] BaseClass:68 - Completed Test Sucessfully
+ 2022-12-01 21:03:11,193  INFO [main] BaseClass:62 - overseasplayerValidationTest has been started
+ 2022-12-01 21:03:11,407  INFO [main] BaseClass:68 - Completed Test Sucessfully
+ 2022-12-01 21:03:26,536  INFO [main] BaseClass:35 - Logger has been Initialized
+ 2022-12-01 21:03:26,563  INFO [main] BaseClass:62 - keeperValidationTest has been started
+ 2022-12-01 21:03:28,014  INFO [main] BaseClass:68 - Completed Test Sucessfully
+ 2022-12-01 21:03:28,017  INFO [main] BaseClass:62 - overseasplayerValidationTest has been started
+ 2022-12-01 21:03:28,192  INFO [main] BaseClass:68 - Completed Test Sucessfully
+ 2022-12-01 22:27:38,981  INFO [main] BaseClass:36 - Logger has been Initialized
+ 2022-12-01 22:27:39,008  INFO [main] BaseClass:64 - keeperValidationTest has been started
+ 2022-12-01 22:27:40,426  INFO [main] BaseClass:70 - Completed Test Sucessfully
+ 2022-12-01 22:27:40,427  INFO [main] BaseClass:64 - overseasplayerValidationTest has been started
+ 2022-12-01 22:27:40,599  INFO [main] BaseClass:70 - Completed Test Sucessfully
+ 2022-12-01 22:29:48,897  INFO [main] BaseClass:36 - Logger has been Initialized
+ 2022-12-01 22:29:48,920  INFO [main] BaseClass:64 - overseasplayerValidationTest has been started
+ 2022-12-01 22:29:50,402  INFO [main] BaseClass:70 - Completed Test Sucessfully
+ 2022-12-01 22:29:50,405  INFO [main] BaseClass:64 - keeperValidationTest has been started
+ 2022-12-01 22:29:50,580  INFO [main] BaseClass:70 - Completed Test Sucessfully
  

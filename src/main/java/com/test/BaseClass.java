@@ -16,6 +16,7 @@ import org.testng.annotations.BeforeSuite;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import com.util.Utils;
 
 import io.restassured.path.json.JsonPath;
@@ -33,6 +34,7 @@ public class BaseClass implements ITestListener {
 		test = extent.startTest("RCB Team Validation");
 		PropertyConfigurator.configure(System.getProperty("user.dir") + "\\resources\\log4j.properties");
 		log.info("Logger has been Initialized");
+		
 
 	}
 
@@ -60,7 +62,7 @@ public class BaseClass implements ITestListener {
 	public void onTestStart(ITestResult result) {
 		
 		log.info(result.getName()+"Test has been started");
-		
+		test.log(LogStatus.INFO, result.getName()+"Test has been started ");
 	}
 
 	public void onTestSuccess(ITestResult result) {
@@ -72,8 +74,8 @@ public class BaseClass implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
-		log.error("Test has been failed");
-		
+		log.error(result.getName()+"Test has been failed");
+		test.log(LogStatus.FAIL, result.getName()+"Test has been Failed ");
 	}
 
 	public void onTestSkipped(ITestResult result) {
